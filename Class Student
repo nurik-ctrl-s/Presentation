@@ -1,0 +1,24 @@
+class Student:
+    def __init__(self, name, student_id):
+        self.name = name
+        self.student_id = student_id
+        self.grades = []
+
+    def add_grade(self, grade):
+        self.grades.append(grade)
+
+    def calculate_average(self):
+        return sum(self.grades) / len(self.grades)
+
+    def get_best_grade(self):
+        return max(self.grades)
+
+    def get_worst_grade(self):
+        return min(self.grades)
+
+    def display_info(self):
+        print("Имя студента:", self.name)
+        print("ID студента:", self.student_id)
+        print("Средний балл:", round(self.calculate_average(), 2))
+        print("Лучшая оценка:", self.get_best_grade())
+        print("Худшая оценка:", self.get_worst_grade())
