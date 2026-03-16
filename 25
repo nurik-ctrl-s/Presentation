@@ -1,0 +1,25 @@
+class Vehicle:
+    def __init__ (self. brand,model,year):
+        self.brand = brand
+        self.model = model 
+        self.year = year
+        def display_info (self):
+        print(self.brand, self,model, self.year)
+V1 = Vehicle ("KIa","k5","2020")
+class Car(Vehicle):
+    def __init__ (self. brand,model,year,num__doors):
+        self.brand = brand
+        self.model = model 
+        self.year = year
+        self.num__doors = num__doors
+    def display_info (self):
+        print(self.brand, self.model, self.year,self.num__doors)
+V2 = Car Vehicle ("KIa","k5","220","4")
+class Motorcycle (Vehicle):
+    def __init__ (self,brand,model,year,has_sidecar):
+        self.brand = brand
+        self.model = model 
+        self.year = year
+        def display_info (self):
+        print(self.brand, self,model, self.year,self.has_sidecar)
+V3 = Motorcycle Vehicle("KIa","k5","2020","3")
