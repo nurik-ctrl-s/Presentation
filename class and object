@@ -1,0 +1,9 @@
+class Car:
+    def __init__(self, name, color, wheele, type, price):
+        self.name = name
+        self.colar = color
+        self.wheele = wheele
+        self.type = type 
+        self.price = price
+bmw = Car ("BMW","black", 4, 45, 95 )
+print (bmw.type)
